@@ -196,7 +196,9 @@
 
   var wizardWidth = 70;
 
-  var WizardHeight = wizardWidth * 1.337;
+  var getWizardHeight = function () {
+    return wizardWidth * 1.337;
+  }
 
   var getWizardX = function (gameFieldWidth) {
     return (gameFieldWidth - wizardWidth) / 2;
